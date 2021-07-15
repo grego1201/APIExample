@@ -13,3 +13,8 @@ end
   Communicated.create(creator: creator, receptor: receptor, last_communicated: last_communicated,
                       subject: Faker::Lorem.sentence, body: Faker::Lorem.paragraph)
 end
+
+150.times do |_|
+  communicated = Communicated.find(rand(100) + 1)
+  Attachment.create(communicated: communicated)
+end
