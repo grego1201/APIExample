@@ -7,5 +7,7 @@ class Communicated < ApplicationRecord
 
   has_many :attachments, class_name: 'Attachment'
 
+  default_scope { order(id: :asc) }
+
   scope :adult_receptor, -> { joins(:receptor).where('birthday < ?', Date.today - ADULT_YEARS.years) }
 end
