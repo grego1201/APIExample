@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "cf562fb2-4315-47dc-88cf-43e369a02836",
+		"name": "APIExample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "communicateds",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/communicateds",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"communicateds"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
