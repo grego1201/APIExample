@@ -7,13 +7,14 @@ This is an API example build in Ruby on Rails. In this project, we'll have a dat
 - Debian 10
 - Bundler 1.17.
 - cURL and Postman
+- asdf
 
 ## Install project
-First of all you must have installed `Ruby 2.6.4` and `PostgreSQL 9.6.22`. When you have already installed it clone the repository with:
+First of all you must have installed `PostgreSQL 9.6.22`. When you have already installed it clone the repository with:
 ```
 git clone https://github.com/grego1201/APIExample.git
 ```
-Once you have cloned the repository the next step is to install gems. Run `bundle install` for that.
+Install `Ruby 2.6.4` with `asdf install`. Once you have cloned the repository the next step is to install gems. Run `bundle install` for that.
 The next step is to setup database. You can create, migrate and populate it with that commands:
 
 ```
